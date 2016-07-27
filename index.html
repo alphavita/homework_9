@@ -4,17 +4,18 @@
         <title>Pingbuller</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link  rel="stylesheet" href="css/media-queries.css">
-		<link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <!--[if lt IE 9]>
-		    <script src="js/html5shiv.js"></script>
+		    <script src="js/modernizr.js"></script>
 		    <script src="js/respond.js"></script>
 		<![endif]-->
-</head>
-
+		<!--[if IE]>
+		    <link rel="stylesheet" href="css/styleIE.css">
+		<![endif]-->
+  </head>
     <body>
     <div class="wrapper">
                                         <!-- HEADER -->
@@ -76,7 +77,7 @@
                 </div>
                 <div class="blurbs__item3">
                     <p class="blurbs__title">ABOUT OUR COMPANY</p>
-                    <p class="blurbs__text blurbs__text--3">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+                    <p class="blurbs__text blurbs__text--3">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-suere. Pellentesque vel lacus eget nisi convallis</p>
                     <a href="#"><p class="blurbs__more blurbs__more--3">read more</p></a>
                 </div>
             </div>
@@ -147,7 +148,7 @@
         </div>
         
                                                 <!-- FOOTER -->
-        <footer>
+        <div class="footer">
             <div class="container">
                 <div class="footer__menu">
                     <nav>
@@ -165,7 +166,7 @@
                     <p class="author">Designed by <span>Pingbull AS</span></p>
                  </div>
             </div>
-        </footer>
+        </div>
     </div>
     </body>
 </html>
